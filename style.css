@@ -1,0 +1,32 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.bgimg{
+    background-image: url(Images/360_F_290468474_6yJ9eBPW2wevarR9cbXN87TCFJDVVuAR.jpg);
+    width: 100%;
+    height: 110vh;
+    background-size: cover;
+}
+
+.border{
+    width: 120px;
+    height: 120px;
+    border-radius: 15px;
+}
+
+.hover1:hover{
+    box-shadow: 1px 1px 4px red, -1px -1px 4px red ;
+}
+
+.hover2:hover{
+    box-shadow: 1px 1px 4px green, -1px -1px 4px green ;
+}
+
+.hover3:hover{
+    box-shadow: 1px 1px 4px yellow, -1px -1px 4px yellow ;
+}
+
+.player1:hover{
+    box-shadow: ;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.css">
+    <link rel="shortcut icon" href="https://img.poki.com/cdn-cgi/image/quality=78,width=94,height=94,fit=cover,f=auto/e80686db-b0fb-4f2c-bd2f-3a89734f102a.jpg" type="image/x-icon">
+</head>
+<body>
+    <h1 align="center" class="text-uppercase text-decoration-underline sticky-top bg-white">Tic Tac Toe</h1>
+    <div class="container-fluid bgimg">
+    <div class="row">
+        <div class="col-lg-5 col-sm-12 my-2">
+            <h3>First player</h3>
+            <input type="text" placeholder="Enter your name" class="form-control big-light shadow-sm fw-bold" id="player1">
+        </div>
+        <div class="col-lg-5 col-sm-12 my-2">
+            <h3>Second player</h3>
+            <input type="text" placeholder="Enter your name" class="form-control big-light shadow-sm fw-bold" id="player2">
+        </div>
+        <div>
+            <button type="button" class="btn btn-dark text-info fw-bold">Play Now</button>
+            <button type="button" class="btn btn-dark text-warning fw-bold">Click to Refresh</button>
+            <p id="showError" class="fs-4 fw-bold text-danger">Please register players name before playing</p>
+        </div>
+    </div>
+       
+    <div  class="table">
+        <div class="border-2 d-flex justify-content-center mt-2 mb-2 gap-2 tr" align="center">
+            <div  id="a1" class="border border-3 border-danger bg-light td hover1"></div>
+            <div  id="a2" class="border border-3 border-success td hover2"></div>
+            <div  id="a3" class="border border-3 border-primary bg-light td hover3"></div>
+        </div>
+        <div class="border-2 d-flex justify-content-center mb-2 gap-2 tr">
+            <div  id="b1" class="border border-3 border-success td hover2"></div>
+            <div  id="b2" class="border border-3 border-primary bg-light td hover3"></div>
+            <div  id="b3" class="border border-3 border-danger td hover1"></div>
+        </div>
+        <div class="border-2 d-flex justify-content-center mb-2 gap-2 tr">
+            <div  id="c1" class="border border-3 border-primary bg-light td hover3"></div>
+            <div  id="c2" class="border border-3 border-danger td hover1"></div>
+            <div  id="c3" class="border border-3 border-success bg-light td hover2"></div>
+        </div>
+        <div align="center">
+            <button type="button" class="btn btn-success mt-2">Continue</button>
+            <button type="button" class="btn btn-danger mt-2">Restart</button>
+        </div>    
+    </div>
+
+    <section class="mt-5">
+        <h3 class="text-decoration-underline">SCORE BOARD</h3>
+        <div class="border border-dark border-3 w-100 py-2 h-100">
+            <div class="border-bottom border-dark border-3 mb-3">
+                <div class="p-2 row text-center">
+                    <p class="col-5 fw-bold fs-3">Name</p>
+                    <p class="col-3 fw-bold fs-3">ID</p>
+                    <p class="col-3 fw-bold fs-3">Score</p>
+                </div>
+            </div>
+
+            <div class="p-2 row text-center">
+                <p class="col-5 fw-bold fs-3"></p>
+                <p class="col-3 fw-bold fs-3 bg-light">X</p>
+                <p class="col-3 fw-bold fs-3 ">0</p>
+            </div>
+
+            <div class="p-2 row text-center">
+                <p class="col-5 fw-bold fs-3"></p>
+                <p class="col-3 fw-bold fs-3 bg-light">Y</p>
+                <p class="col-3 fw-bold fs-3">0</p>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
